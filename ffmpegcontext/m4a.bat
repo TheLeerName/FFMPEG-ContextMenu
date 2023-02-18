@@ -1,0 +1,1 @@
+@ffmpeg -y -loglevel 0 -i "%~1" -map a "%~dpn1.m4a"

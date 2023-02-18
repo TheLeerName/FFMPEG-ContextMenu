@@ -1,0 +1,1 @@
+@ffmpeg -y -loglevel 0 -i "%~1" -c:a libvorbis -map a "%~dpn1.ogg"

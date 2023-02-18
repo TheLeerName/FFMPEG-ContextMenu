@@ -1,0 +1,1 @@
+@ffmpeg -y -loglevel 0 -i "%~1" "%~dpn1.mp4"
