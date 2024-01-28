@@ -3,8 +3,10 @@ FFMPEG fast converting in Windows context menu
 
 # How to use
 1. Extract folder in archive to `C:\Windows`
-2. Run script **with admin rights** `C:\Windows\ffmpegcontext\__ENABLE_FFMPEG__.bat`
+2. Run script `C:\Windows\ffmpegcontext\__ENABLE_FFMPEG__.bat`
 3. Try right click on any file
+
+## Works on Windows 10 / 11
 
 ## Converting in
 - m4a
