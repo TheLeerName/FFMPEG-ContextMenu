@@ -1,3 +1,7 @@
+:: bro starts this script with admin rights in working dir with that 2 lines
+if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
+cd /d "%~dp0"
+
 @chcp 65001
 @cls
 
